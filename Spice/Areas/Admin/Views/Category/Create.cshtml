@@ -14,7 +14,9 @@
 <h2 class="text-info">Create Category</h2>
 <br />
 
-<form method="post" asp-action="Create"></form>
+
+
+<form method="post" asp-action="Create">
     <div class="border backgroundWhite">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group row">
@@ -31,4 +33,6 @@
                 <partial name="_CreateAndBackToListButton" />
             </div>
         </div>
-</div>
+
+    </div>
+</form>
